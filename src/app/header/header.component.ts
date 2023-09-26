@@ -13,6 +13,7 @@ export class HeaderComponent {
   enablePopup() {
     const dilogRef = this.dialog.open(GraphjsComponent, {
       disableClose: true,
+      width: '90%',
       data: {
        enable:true
       },
